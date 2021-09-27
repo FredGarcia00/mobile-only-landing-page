@@ -6,7 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    * {
+        padding: 0;
+        margin:0;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: lightblue;
+        padding: 10px;
+
+    }
+    input {
+        padding: 10px;
+    }
+    p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+</style>
 <body>
-    <h1>The best playlist for your workout</h1>
+    <div class="container">
+        <h1>The best playlist for your workout</h1>
+        <p>Sign up to our newsletter to get up to date hand picked music to add to your workout.</p>
+        <form action="">
+            <input type="text" placeholder="Email Address">
+            <input type="submit">
+        </form>
+        <p>We respect your privacy and will not spam you. Unsubscribe any time.</p>
+
+    </div>
 </body>
 </html>
